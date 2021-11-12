@@ -1,2 +1,114 @@
 ﻿body {
+    font-family: 'Century Gothic';
 }
+
+.container-fluid {
+    width: 88%;
+}
+
+.row.content {
+    height: 520px
+}
+
+.sidenav {
+    height: 100%;
+}
+
+.ol-content-genres-caption {
+    font-weight: bold;
+    font-size: 19px;
+    color: rgb(31, 30, 30) !important;
+}
+.ol-content-genres a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+
+.ol-content-genres-list {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.ol-content-bestsellers {
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-gap: 1.2em 0em;
+}
+
+.ol-content-bookcard {
+    width: 9.5rem;
+}
+
+.ol-content-bookcard a {
+    text-decoration: none;
+}
+
+/*նայել խի չի աշխատում*/
+.ol-content-bookcard a:hover {
+    border: 2px solid black;
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.ol-content-books-caption {
+    font-size: 18px;
+}
+
+.ol-content-bookcard-name {
+    color: rgb(41, 41, 41);
+    font-size: 15px;
+    margin: 0 0 2px;
+}
+
+.ol-content-bookcard-author {
+    color: rgb(90, 90, 90);
+    font-size:10.5px;
+}
+
+.form {
+    position: relative;
+    margin-left: -50px;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.form input::placeholder {
+    font-size: 13px;
+}
+
+.form span {
+    position: absolute;
+    right: 12px;
+    top: 1px;
+    padding: 1px;
+    border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+    padding-left: 3.5px;
+}
+
+.left-pan i {
+    padding-left: 10px;
+}
+
+.form-input {
+    height: 27.5px;
+    text-indent: 16.5px;
+    border-radius: 15px;
+    border-color: rgb(128, 127, 127);
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
