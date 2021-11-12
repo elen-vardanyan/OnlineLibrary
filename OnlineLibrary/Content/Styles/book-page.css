@@ -1,2 +1,70 @@
 ﻿body {
+    font-family: 'Century Gothic';
 }
+
+.ol-bookinfo {
+    width: 65%;
+}
+
+.ol-bookinfo-title {
+    font-size: 60px;
+}
+
+.ol-bookinfo-block {
+    display: grid;
+    grid-template-columns: 28% 73%;
+}
+
+.ol-bookinfo-img img {
+    width: 200px;
+    height: auto;
+}
+
+.ol-bookinfo-description p {
+    color: rgb(90, 90, 90);
+}
+
+.list-group-item-fixed {
+    width: auto;
+}
+
+.list-group-left {
+    text-align: right;
+    width: 150px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.list-group-right {
+    text-align: left;
+    width: 200px;
+    display: inline-block;
+}
+
+.ol-bookinfo-downloadbutton a {
+    background:rgb(32, 32, 32);
+    color: white;
+    font-size: 22px;
+    padding: 0.4rem 2.8rem;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.ol-bookinfo-uploaddate p {
+    font-size: 15px;
+}
+/*
+.ol-bookinfo-downloadbutton a:hover {
+    background: rgba(3, 117, 117, 0.836);
+    color: rgba(255, 255, 255, 0.712);
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}*/
