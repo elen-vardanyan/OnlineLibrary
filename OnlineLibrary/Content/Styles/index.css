@@ -6,10 +6,6 @@
     width: 88%;
 }
 
-.row.content {
-    height: 520px
-}
-
 .sidenav {
     height: 100%;
 }
@@ -32,7 +28,7 @@
 .ol-content-bestsellers {
     display: grid;
     grid-template-columns: repeat(5,20%);
-    grid-gap: 1.2em 0em;
+    grid-gap: 0.8em 0em;
 }
 
 .ol-content-bookcard {

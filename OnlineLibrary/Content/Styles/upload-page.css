@@ -1,2 +1,35 @@
 ﻿body {
+    font-family: 'Century Gothic';
+}
+
+.ol-uploadbook {
+    width: 62%;
+    border: 1px #dee2e6 solid;
+}
+
+.ol-uploadbook-title {
+    font-size: 45px;
+    border-bottom: 1px #dee2e6 solid;
+}
+
+.ol-uploadbook-form {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-gap: 0.8em 1.5em;
+}
+
+.ol-uploadbook-form-browsefile {
+    border: 1px #dee2e6 dashed;
+}
+
+.ol-uploadbook-form-browsefile p {
+    font-size: 13px;
+    color: gray;
+}
+
+.ol-uploadbook-form-browsefile h3 {
+    font-size: 13px;
+    color: white;
+    background-color: gray;
+    font-size: 18px;
 }
