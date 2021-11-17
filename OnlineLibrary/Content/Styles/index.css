@@ -20,6 +20,11 @@
     color: rgb(90, 90, 90);
 }
 
+.ol-content-genres a:hover {
+    text-decoration: underline;
+    color: rgb(27, 27, 27);
+}
+
 .ol-content-genres-list {
     list-style-type: none;
     font-size: 14px;
@@ -39,9 +44,9 @@
     text-decoration: none;
 }
 
-/*նայել խի չի աշխատում*/
 .ol-content-bookcard a:hover {
-    border: 2px solid black;
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
 }
 
 .card-body {
@@ -104,7 +109,6 @@
 }
 
 .form-input:focus {
-    box-shadow: none;
-    border: none
+    box-shadow: 0.5px 0.5px gray;
 }
 

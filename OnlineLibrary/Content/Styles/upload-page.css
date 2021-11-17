@@ -14,22 +14,69 @@
 
 .ol-uploadbook-form {
     display: grid;
-    grid-template-columns: repeat(2,50%);
-    grid-gap: 0.8em 1.5em;
+    grid-template-columns: 40% 60%;
 }
 
 .ol-uploadbook-form-browsefile {
     border: 1px #dee2e6 dashed;
+    border-bottom:none !important;
+}
+
+.ol-uploadbook-form-browsefile svg {
+    margin-left: 13%;
+}
+
+.ol-uploadbook-form-browsefile a {
+    text-decoration: none;
 }
 
 .ol-uploadbook-form-browsefile p {
-    font-size: 13px;
+    font-size: 15px;
     color: gray;
 }
 
 .ol-uploadbook-form-browsefile h3 {
-    font-size: 13px;
     color: white;
     background-color: gray;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: -10px;
+    font-family: Calibri;
+}
+
+.ol-uploadbook-form-input label, input {
+    display: block;
+}
+
+.ol-uploadbook-form-input input, textarea, select {
+    border-radius: 8px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.ol-uploadbook-form-input label {
+    margin-top: 10px;
+}
+
+.ol-uploadbook-uploadbutton a {
+    background: rgb(32, 32, 32);
+    color: white;
+    font-size: 22px;
+    padding: 0.4rem 2.8rem;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.ol-uploadbook-uploadbutton a:hover {
+    background: rgb(54, 54, 54);
+    color: white;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
 }
