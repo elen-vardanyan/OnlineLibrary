@@ -45,6 +45,12 @@
 
 .ol-uploadbook-form-input label, input {
     display: block;
+    border-color: dimgrey;
+}
+
+.ol-uploadbook-form-input input {
+    border-style: solid;
+    border-width: 0.5px;
 }
 
 .ol-uploadbook-form-input input, textarea, select {
@@ -60,8 +66,8 @@
 .ol-uploadbook-uploadbutton a {
     background: rgb(32, 32, 32);
     color: white;
-    font-size: 22px;
-    padding: 0.4rem 2.8rem;
+    font-size: 21px;
+    padding: 0.4rem 2.4rem;
     text-decoration: none;
     border-radius: 20px;
     cursor: pointer;

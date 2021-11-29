@@ -45,7 +45,8 @@
                     <label for="author">Author:</label>
                     <input type="text" id="author" name="author">
                     <label for="genre">Genre:</label>
-                    <select name="genre" id="genre" placeholder="Choose a Genre">
+                    <select name="genre" id="genre">
+                        <option value="" disabled selected hidden>Choose a Genre...</option>
                         <option value="actionandadventure">Action and Adventure</option>
                         <option value="classics">Classics            </option>
                         <option value="comic">Comic Book          </option>
@@ -56,9 +57,22 @@
                         <option value="literaryfiction">Literary Fiction        </option>
                         <option value="romanc">Romance                 </option>
                         <option value="scifi">Science Fiction (Sci-Fi)</option>
+                        <option value="shortstory">Short Stories           </option>
+                        <option value="susponseandthrillers">Suspense and Thrillers  </option>
+                        <option value="womensfiction">Women's Fiction         </option>
+                        <option value="biography">Biographies             </option>
+                        <option value="autobiography">Autobiographies         </option>
+                        <option value="cookbook">Cookbooks               </option>
+                        <option value="essay">Essays                  </option>
+                        <option value="history">History                 </option>
+                        <option value="memoir">Memoir                  </option>
+                        <option value="poetry">Poetry                  </option>
+                        <option value="selfhelp">Self-Help               </option>
+                        <option value="crime">True Crime              </option>
                     </select>
                     <label for="language">Language:</label>
                     <select name="language" id="language">
+                        <option value="" disabled selected hidden>Choose a Language...</option>
                         <option value="en">English</option>
                         <option value="ru">Russian</option>
                         <option value="arm">Armenian</option>
@@ -66,7 +80,6 @@
                     </select>
                     <label for="description">Description:</label>
                     <textarea id="description" name="description" rows="3" cols="35">
-                
                     </textarea>
                 </form>
             </div>
