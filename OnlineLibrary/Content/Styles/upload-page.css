@@ -63,7 +63,7 @@
     margin-top: 10px;
 }
 
-.ol-uploadbook-uploadbutton a {
+.ol-uploadbook-uploadbutton input {
     background: rgb(32, 32, 32);
     color: white;
     font-size: 21px;
@@ -77,7 +77,7 @@
     -moz-transition: all 0.3s ease;
 }
 
-.ol-uploadbook-uploadbutton a:hover {
+.ol-uploadbook-uploadbutton input:hover {
     background: rgb(54, 54, 54);
     color: white;
     box-shadow: 1px 5px 10px -5px black;
@@ -86,3 +86,4 @@
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
 }
+

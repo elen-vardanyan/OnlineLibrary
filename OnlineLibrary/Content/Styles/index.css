@@ -112,3 +112,7 @@
     box-shadow: 0.5px 0.5px gray;
 }
 
+.show-read-more .more-text{
+    display: none;
+}
+
