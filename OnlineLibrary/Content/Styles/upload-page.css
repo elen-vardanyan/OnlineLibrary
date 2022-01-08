@@ -63,7 +63,7 @@
     margin-top: 10px;
 }
 
-.ol-uploadbook-uploadbutton input {
+.ol-uploadbook-uploadbutton a {
     background: rgb(32, 32, 32);
     color: white;
     font-size: 21px;
@@ -77,7 +77,7 @@
     -moz-transition: all 0.3s ease;
 }
 
-.ol-uploadbook-uploadbutton input:hover {
+.ol-uploadbook-uploadbutton a:hover {
     background: rgb(54, 54, 54);
     color: white;
     box-shadow: 1px 5px 10px -5px black;
@@ -87,3 +87,9 @@
     -moz-transition: all 0.3s ease;
 }
 
+#bname_sp, #author_sp, #select_sp, #select_sp_lng {
+    color: black;
+    margin-top: 2px;
+    font-size: 15px;
+    font-style: normal;
+}

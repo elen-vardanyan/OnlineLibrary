@@ -27,23 +27,31 @@ $(document).ready(function(){
     });
 });
 
-//form validation
-// var form = document.querySelector(".ol-uploadbook-validatedform");
-// var validateBtn = document.querySelector(".ol-uploadbook-uploadbutton-btn");
-// var bookName = document.querySelector("#bname");
-// var author = document.querySelector("#author");
-// var genre = document.querySelector("#genre");
-// var language = document.querySelector("#language");
-// var description = document.querySelector("#description");
-// var fields = document.querySelector('.form-field')
+//upload page form validation
+$('#btn_link').click(function () {
+    if ($('#bname').val() == '') {
+        $('#bname_sp').text('Please write text *');
+    }
+    else {
+        $('#bname_sp').text('');
+    }
+    if ($('#author').val() == '') {
+        $('#author_sp').text('Please write text *');
+    }
+    else {
+        $('#author_sp').text('');
+    }
 
-// document.addEventListener('submit', function (event) {
-//     event.preventDefault();
-    
-//     for (var i = 0; i < fields.length; i++) {
-//         if (!fields[i].value) {
-//             console.log('fields is blank', fields[i]);
-//         }
-//     }
-//   })
-
+    if ($('#genre').val()) {
+        $('#select_sp').text('');
+    }
+    else {
+        $('#select_sp').text('Please choose one *');
+    }
+    if ($('#language').val()) {
+        $('#select_sp_lng').text('');
+    }
+    else {
+        $('#select_sp_lng').text('Please choose one *');
+    }
+})
