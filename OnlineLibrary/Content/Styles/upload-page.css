@@ -87,9 +87,10 @@
     -moz-transition: all 0.3s ease;
 }
 
-#bname_sp, #author_sp, #select_sp, #select_sp_lng {
-    color: black;
-    margin-top: 2px;
-    font-size: 15px;
+#bname-validation-p, #author-validation-p, #genre-validation-p, #language-validation-p, #description-validation-p {
+    color: red;
+    margin: 1px 4px -4px;
+    font-size: 12px;
+    font-weight: bold;
     font-style: normal;
 }

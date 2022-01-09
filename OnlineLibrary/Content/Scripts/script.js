@@ -1,4 +1,4 @@
-﻿//upload book page browse file
+﻿//Browse File
 function performClick(elemId) {
     var elem = document.getElementById(elemId);
     if(elem && document.createEvent) {
@@ -8,7 +8,7 @@ function performClick(elemId) {
     }
  }
 
-//index page read more
+//BookName Caption read more
 $(document).ready(function(){
     var maxLength = 14;
     $(".show-read-more").each(function(){
@@ -27,31 +27,31 @@ $(document).ready(function(){
     });
 });
 
-//upload page form validation
+//Form validation
+let requiredMessage = "This field is required!";
 $('#btn_link').click(function () {
     if ($('#bname').val() == '') {
-        $('#bname_sp').text('Please write text *');
+        $('#bname-validation-p').text(requiredMessage);
     }
     else {
-        $('#bname_sp').text('');
+        $('#bname-validation-p').text('');
     }
     if ($('#author').val() == '') {
-        $('#author_sp').text('Please write text *');
+        $('#author-validation-p').text(requiredMessage);
     }
     else {
-        $('#author_sp').text('');
+        $('#author-validation-p').text('');
     }
-
     if ($('#genre').val()) {
-        $('#select_sp').text('');
+        $('#genre-validation-p').text('');
     }
     else {
-        $('#select_sp').text('Please choose one *');
+        $('#genre-validation-p').text(requiredMessage);
     }
     if ($('#language').val()) {
-        $('#select_sp_lng').text('');
+        $('#language-validation-p').text('');
     }
     else {
-        $('#select_sp_lng').text('Please choose one *');
+        $('#language-validation-p').text(requiredMessage);
     }
 })

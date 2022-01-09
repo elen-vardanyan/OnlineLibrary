@@ -40,13 +40,13 @@
             </div>
             <div class="ol-uploadbook-form-input px-3 mx-5 my-4 pt-2 fst-italic">
                 <form action="/" method="post">
-                    <label for="bname">Book name:</label>
+                    <label for="bname">Book name:*</label>
                     <input type="text" id="bname" name="bname">
-                    <span id="bname_sp"></span>
-                    <label for="author">Author:</label>
+                    <p id="bname-validation-p"></p>
+                    <label for="author">Author:*</label>
                     <input type="text" id="author" name="author">
-                    <span id="author_sp"></span>
-                    <label for="genre">Genre:</label>
+                    <p id="author-validation-p"></p>
+                    <label for="genre">Genre:*</label>
                     <select class="genre" id="genre">
                         <option value="" disabled selected hidden>Choose a Genre...</option>
                         <option value="actionandadventure">Action and Adventure</option>
@@ -72,8 +72,8 @@
                         <option value="selfhelp">Self-Help</option>
                         <option value="crime">True Crime</option>
                     </select>
-                    <span id="select_sp"></span>
-                    <label for="language">Language:</label>
+                    <p id="genre-validation-p"></p>
+                    <label for="language">Language:*</label>
                     <select name="language" id="language">
                         <option value="" disabled selected hidden>Choose a Language...</option>
                         <option value="en">English</option>
@@ -81,7 +81,7 @@
                         <option value="arm">Armenian</option>
                         <option value="fr">French</option>
                     </select>
-                    <span id="select_sp_lng"></span>
+                    <p id="language-validation-p"></p>
                     <label for="description">Description:</label>
                     <textarea id="description" name="description" rows="3" cols="35">
                     </textarea>
