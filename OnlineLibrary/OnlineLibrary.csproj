@@ -16,7 +16,7 @@
     <AssemblyName>OnlineLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44361</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
@@ -127,6 +127,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Scripts\book-page.js" />
+    <Content Include="Content\Scripts\index.js" />
+    <Content Include="Content\Scripts\upload-page.js" />
+    <Content Include="favicon.ico" />
     <Content Include="Content\bootstrap-5.1.3\css\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-5.1.3\css\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-5.1.3\css\bootstrap-grid.rtl.css" />
@@ -149,27 +153,21 @@
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.esm.min.js" />
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.js" />
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.min.js" />
-    <Content Include="Content\Images\book.ico" />
-    <Content Include="Content\Images\books-stack-of-three.ico" />
-    <Content Include="Content\Images\books.ico" />
     <Content Include="Content\Images\it-ends-with-us.jpg" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\me-before-you.jpg" />
-    <Content Include="Content\Images\open-book.ico" />
     <Content Include="Content\Images\steve-jobs.jpg" />
     <Content Include="Content\Images\the-fault-in-our-stars.jpg" />
     <Content Include="Content\Images\the-judges-list.jpg" />
     <Content Include="Content\Images\the-last-thing-he-told-me.jpg" />
     <Content Include="Content\Images\where-the-crawdads-sing.jpg" />
     <Content Include="Content\jQuery.3.6.0\jquery-3.6.0.min.js" />
-    <Content Include="Content\Scripts\script.js" />
+    <Content Include="Content\Scripts\common.js" />
     <Content Include="Content\Styles\book-page.css" />
     <Content Include="Content\Styles\index.css" />
-    <Content Include="Content\Styles\main.css" />
+    <Content Include="Content\Styles\common.css" />
     <Content Include="Content\Styles\upload-page.css" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Templates\book-page.html" />
     <Content Include="Templates\index.html" />
     <Content Include="Templates\upload-page.html" />
@@ -184,8 +182,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -216,6 +212,8 @@
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.js.map" />
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.min.js.map" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\UploadPage.cshtml" />
+    <Content Include="Views\Home\BookPage.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -235,7 +233,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53954</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44361/</IISUrl>
+          <IISUrl>http://bookiverse.com</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
